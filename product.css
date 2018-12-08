@@ -20,10 +20,11 @@
   text-decoration: none;
 }
 #artist {
+max-height: 300px;
 position: absolute;
     left: 0px;
     top: 0px;
-object-fit: cover;
+object-fit: fill;
     z-index: 1;
 }
 
@@ -35,9 +36,9 @@ object-fit: cover;
 
  .jumbotron {
 
-   min-height: 600px;
+   min-height: 300px;
    margin-bottom: -10px;
-   background-image: url('images/palette.jpg');
+   background-image: url('images/artist.jpg');
    background-size: cover;
    background-attachment: relative;
  }
@@ -45,7 +46,7 @@ object-fit: cover;
  .jumbotron h1 {
      padding-top: 70px;
    font-family:  'Varela Round', sans-serif;
-   color: white;
+   color: black;
    margin-bottom: 1em;
 
  }
@@ -75,8 +76,8 @@ object-fit: cover;
 .overflow-hidden { overflow: hidden; }
 
 label {
-  padding: 0px;
-  color: white;
+  padding: 10px;
+  color: black;
 }
 
 footer {
