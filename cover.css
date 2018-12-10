@@ -33,13 +33,14 @@ body {
 body {
   display: -ms-flexbox;
   display: flex;
-  color: #fff;
+  color: #707070;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 100%;
+  background-image: url("images/artist.jpg");
 }
 
 
@@ -103,4 +104,5 @@ body {
  */
 .mastfoot {
   color: rgba(255, 255, 255, .5);
+  text-shadow: 0;
 }

@@ -19,12 +19,11 @@
   color: #fff;
   text-decoration: none;
 }
-#artist {
-max-height: 300px;
+
+.artist {
+max-width: 100%;
 position: absolute;
-    left: 0px;
-    top: 0px;
-object-fit: fill;
+
     z-index: 1;
 }
 
